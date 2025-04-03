@@ -1,0 +1,292 @@
+{
+    "edison": {
+    "NEW_TESTING2": {
+        "config": [
+        {
+        "clients": [
+        {
+        "client_id": 300
+        },
+        {
+        "client_id": 36
+        }
+        ],
+        "method": "get",
+        "ip": "",
+        "path": "",
+        "httpauth": ""
+        }
+        ],
+        "type": "pull",
+        "schedule": "20 10 10 25 * *",
+        "alert": "P3",
+        "port": 8367,
+        "mail_to":["sarthakmehrotra@verdis.ai"],
+        "dagname": "",
+        "params_in_body": "false",
+        "updatefreq": "hourly",
+        "fetch_range": 1,
+        "customflag": {
+        }
+        },
+    "NEW_TESTING": {
+    "config": [
+    {
+    "clients": [
+    {
+    "client_id": 300
+    },
+    {
+    "client_id": 36
+    }
+    ],
+    "method": "get",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "20 10 10 25 * *",
+    "alert": "P3",
+    "port": 8367,
+    "mail_to":["sarthakmehrotra@verdis.ai"],
+    "dagname": "",
+    "params_in_body": "false",
+    "updatefreq": "hourly",
+    "fetch_range": 1,
+    "customflag": {
+    }
+    },
+    "EDISON35-BOM_MASTER":{
+        "config": [
+    {
+    "clients": [{}],
+    "method": "get",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "40 10 10 10 * *",
+    "temp_path": "WB02-ORDER",
+    "port": 443,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {},
+    "requestgap": 10000
+
+    }
+    },
+    "smasher": {
+    "SMASHER02-SALES": {
+    "config": [
+    {
+    "clients": [
+    {
+    "client_id": 2
+    }
+    ],
+    "method": "post",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "20 10 25 10 * *",
+    "port": 443,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {}
+    },
+    "SMASHER02-SALES_TESTEDAADE": {
+    "config": [
+    {
+    "clients": [
+    {
+    "client_id": 300
+    }
+    ],
+    "method": "get",
+    "ip": "lb-core.testbed.verdis.internal",
+    "path": "",
+    "httpauth": "Basic bGFsaXQ6bGFraG90aWE="
+    }
+    ],
+    "type": "pull",
+    "schedule": "10 35 25 * * *",
+    "port": 8358,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {}}},
+    "wrightbrothers": {"WB02-ORDER_REHAM": {
+    "config": [
+    {
+    "clients": [{"client_id": 1},{"client_id": 2},{"client_id": 3},{"client_id": 4},{"client_id": 5},{"client_id": 6},{"client_id": 7},{"client_id": 8},{"client_id": 9},{"client_id": 10},{"client_id": 15},{"client_id": 16},{"client_id": 17},{"client_id": 18},{"client_id": 27},{"client_id": 28},{"client_id": 31},{"client_id": 32},{"client_id": 33},{"client_id": 34},{"client_id": 36},{"client_id": 37},{"client_id": 49},{"client_id": 54},{"client_id": 55},{"client_id": 56},{"client_id": 57},{"client_id": 72},{"client_id": 73},{"client_id": 74},{"client_id": 75},{"client_id": 76},{"client_id": 77},{"client_id": 78},{"client_id": 79},{"client_id": 80},{"client_id": 81},{"client_id": 82},{"client_id": 83},{"client_id": 84},{"client_id": 87},{"client_id": 88},{"client_id": 89},{"client_id": 90},{"client_id": 91},{"client_id": 92},{"client_id": 93}],
+    "method": "post",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "40 44 25 * * *",
+    "temp_path": "WB02-ORDER",
+    "port": 443,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {},
+    "requestgap": 10000
+    }},
+    "hawking":{}
+    }
+
+
+
+    {
+    "edison": {
+    "NEW_TESTING2": {
+        "config": [
+        {
+        "clients": [
+        {
+        "client_id": 300
+        },
+        {
+        "client_id": 36
+        }
+        ],
+        "method": "get",
+        "ip": "",
+        "path": "",
+        "httpauth": ""
+        }
+        ],
+        "type": "pull",
+        "schedule": "20 10 10 25 * *",
+        "alert": "P3",
+        "port": 8367,
+        "mail_to":["sarthakmehrotra@verdis.ai"],
+        "dagname": "",
+        "params_in_body": "false",
+        "updatefreq": "hourly",
+        "fetch_range": 1,
+        "customflag": {
+        }
+        },
+    "NEW_TESTING": {
+    "config": [
+    {
+    "clients": [
+    {
+    "client_id": 300
+    },
+    {
+    "client_id": 36
+    }
+    ],
+    "method": "get",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "20 10 10 25 * *",
+    "alert": "P3",
+    "port": 8367,
+    "mail_to":["sarthakmehrotra@verdis.ai"],
+    "dagname": "",
+    "params_in_body": "false",
+    "updatefreq": "hourly",
+    "fetch_range": 1,
+    "customflag": {
+    }
+    },
+    "EDISON35-BOM_MASTER":{
+        "config": [
+    {
+    "clients": [{}],
+    "method": "get",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "40 10 10 10 * *",
+    "temp_path": "WB02-ORDER",
+    "port": 443,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {},
+    "requestgap": 10000
+
+    }
+    },
+    "smasher": {
+    "SMASHER02-SALES": {
+    "config": [
+    {
+    "clients": [
+    {
+    "client_id": 2
+    }
+    ],
+    "method": "post",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "20 10 25 10 * *",
+    "port": 443,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {}
+    },
+    "SMASHER02-SALES_TESTEDAADE": {
+    "config": [
+    {
+    "clients": [
+    {
+    "client_id": 300
+    }
+    ],
+    "method": "get",
+    "ip": "lb-core.testbed.verdis.internal",
+    "path": "",
+    "httpauth": "Basic bGFsaXQ6bGFraG90aWE="
+    }
+    ],
+    "type": "pull",
+    "schedule": "10 35 25 * * *",
+    "port": 8358,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {}}},
+    "wrightbrothers": {
+    "WB02-ORDER_REHAM": {
+    "config": [
+    {
+    "clients": [{"client_id": 1},{"client_id": 2},{"client_id": 3},{"client_id": 4},{"client_id": 5},{"client_id": 6},{"client_id": 7},{"client_id": 8},{"client_id": 9},{"client_id": 10},{"client_id": 15},{"client_id": 16},{"client_id": 17},{"client_id": 18},{"client_id": 27},{"client_id": 28},{"client_id": 31},{"client_id": 32},{"client_id": 33},{"client_id": 34},{"client_id": 36},{"client_id": 37},{"client_id": 49},{"client_id": 54},{"client_id": 55},{"client_id": 56},{"client_id": 57},{"client_id": 72},{"client_id": 73},{"client_id": 74},{"client_id": 75},{"client_id": 76},{"client_id": 77},{"client_id": 78},{"client_id": 79},{"client_id": 80},{"client_id": 81},{"client_id": 82},{"client_id": 83},{"client_id": 84},{"client_id": 87},{"client_id": 88},{"client_id": 89},{"client_id": 90},{"client_id": 91},{"client_id": 92},{"client_id": 93}],
+    "method": "post",
+    "ip": "",
+    "path": "",
+    "httpauth": ""
+    }
+    ],
+    "type": "pull",
+    "schedule": "40 44 25 * * *",
+    "temp_path": "WB02-ORDER",
+    "port": 443,
+    "dagname": "",
+    "updatefreq": "daily",
+    "customflag": {},
+    "requestgap": 10000
+    }},
+    "hawking":{}
+    }
